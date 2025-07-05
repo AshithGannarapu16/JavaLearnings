@@ -11,15 +11,16 @@ public class Circular {
     public static Node insert(Node head, int val) {
         Node newNode = new Node(val);
         if (head == null) {
-            newNode.next = newNode; // Point to itself
+            newNode.next = newNode;
+            
             return newNode;
         }
         Node temp = head;
         while (temp.next != head) {
             temp = temp.next;
         }
-        temp.next = newNode; // Link the last node to the new node
-        newNode.next = head; // New node points to head
+        temp.next = newNode; 
+        newNode.next = head; 
         return head;
     }
 
