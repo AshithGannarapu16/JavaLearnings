@@ -1,4 +1,4 @@
-public class Circular {
+public class Queue {
     static class Node {
         int data;
         Node next;

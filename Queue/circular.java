@@ -1,11 +1,11 @@
 // Circular Queue implementation in Java
 
-public class CQueue {
+public class Circular {
   int SIZE = 5; // Size of Circular Queue
   int front, rear;
   int items[] = new int[SIZE];
 
-  CQueue() {
+  Circular() {
     front = -1;
     rear = -1;
   }
@@ -78,7 +78,7 @@ public class CQueue {
 
   public static void main(String[] args) {
 
-    CQueue q = new CQueue();
+    Circular q = new Circular();
 
     // Fails because front = -1
     q.deQueue();
@@ -108,5 +108,4 @@ public class CQueue {
     // Fails to enqueue because front == rear + 1
     q.enQueue(8);
   }
-
 }
