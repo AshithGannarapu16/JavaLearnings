@@ -20,5 +20,8 @@ public class slidingWindowsum{
         int[] arr={2,1,5,1,3,2};
         int k=3;
         System.out.println("Max sum of subarray of size k: "+maxSum(arr, k));
+        // Example output: Max sum of subarray of size k: 9
+        // Explanation: The subarray [5, 1, 3] has the maximum sum of 9.
+        // Note: The output may vary based on the input array and k value.  
     }
 }
