@@ -15,5 +15,8 @@ public  class ll{
         Ll.addAll(al);
         Ll.remove(2);
         System.out.println(Ll);
+
+
+        
     }
 }
