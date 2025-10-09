@@ -1,4 +1,4 @@
-public class Hallogram {
+public class hallogram {
     public static void main(String[] args) {
         int rows = 7;
         int cols = 21;
