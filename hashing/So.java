@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class So {
     public ArrayList<Integer> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
         Map<Integer, Integer> freq = new HashMap<>();
         for (int num : A) {

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashingExample {
+public class ex {
     public static void main(String[] args) {
         // Create a HashMap to store country-capital pairs
         Map<String, String> countryCapitals = new HashMap<>();
