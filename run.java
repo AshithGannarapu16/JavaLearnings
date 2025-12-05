@@ -1,4 +1,4 @@
-public class Run{
+public class run{
     public int[] solve(int[] A) {
         if (A == null || A.length == 0) {
             return A;
@@ -30,7 +30,7 @@ public class Run{
         quickSort(arr,left,hi);
     }
     public static void main(String[] args) {
-        Run run = new Run();
+        run run = new run();
         int[] A = {3, 6, 8, 10, 1, 2, 1};
         int[] sortedArray = run.solve(A);
         for (int num : sortedArray) {
