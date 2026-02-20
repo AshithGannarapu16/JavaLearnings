@@ -1,26 +1,30 @@
-package LLD;
+// // package LLD;
+// import LLD.Student;
 
 // Convention: Class names should start with a Capital letter (Intro)
-public class intro { 
-    String name; // 'String' must be capitalized
-    int age;
-
-    public intro(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
+ 
+public class intro {
     public static void main(String[] args) {
-    intro person = new intro("Alice", 30);
-    System.out.println("Name: " + person.getName());
-    System.out.println("Age: " + person.age);
+        Student student1 = new Student();
+        student1.id = 1;
+        student1.name = "Alice";
+        student1.age = 20;
+        student1.gradYear = 2024;
+
+        Student student2 = new Student();
+        student2.id = 2;
+        student2.name = "Bob";
+        student2.age = 22;
+        student2.gradYear = 2023;
+
+        System.out.println("Student 1 Information:");
+        student1.displayInfo();
+
+        System.out.println("\nStudent 2 Information:");
+        student2.displayInfo();
 
 
+    }
 } 
 
-
-}
   
